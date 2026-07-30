@@ -58,7 +58,6 @@ def _(mo):
     ### **Creare la lista delle ascisse**
 
     Ora iniziamo a creare e a popolare la lista che contiene i valori ascisse $x$ per le quali sarà calcolata la funzione. Dobbiamo: 
-
     - creare una lista vuota;
     - **definire il domino**: significa impostare la $x$ minima e massima da visualizzare. Nel caso, invece, di funzioni definite non in tutto $\R$, per tenere conto di eventuali condizioni di esistenza devo eliminare dalla lista $x$ i valori esclusi.<br/> A questo scopo posso utilizzare la funzione `x.drop(0)`, per esempio, per eliminare il valore $0$ dalla lista $x$. Il metodo `drop` elimina solo la prima occorrenza dell'elemento riportato fra parentesi e questo a va bene dato che la lista $x$ è stata costruita in modo tale che i valori siano crescenti.
     - scegliere in quanti segmenti $n$ discretizzare il dominio;
